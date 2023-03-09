@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.Character.isUpperCase;
 
-public class Frequency {
+public class Main {
 
     public static void main(String Args[]) throws IOException {
 
@@ -53,7 +53,7 @@ public class Frequency {
 
 
         // printing content from inputs.
-        Frequency frequency = new Frequency();
+        Main frequency = new Main();
         frequency.displayData(string, bool);
 
     }
